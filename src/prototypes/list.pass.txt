@@ -1,0 +1,22 @@
+listPrototype: methods for list instances
+  list title: getter and setter
+    √ PASS: sets the list's title
+    √ PASS: gets the list's title
+  set entries: copies entries from an array into state
+    √ PASS: does not store the same array
+    √ PASS: does store the correct entries
+  get entries: read the app's entries from state
+    √ PASS: returns a new array
+    √ PASS: with the correct entries
+  list.toggleCompleted: given a todo index, change its status
+    √ PASS: changes the first todo
+    √ PASS: changes the second todo
+    √ PASS: changes the first todo again
+    √ PASS: does nothing if the index is out of range
+  renderTodos: renders all saved list into a UL element
+    √ PASS: would be a nice challenge to write a test for this!
+  ... writing tests for the rest of the methods ...
+    √ PASS: is
+    √ PASS: fun
+    √ PASS: !
+
